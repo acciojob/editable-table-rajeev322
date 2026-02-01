@@ -1,13 +1,12 @@
-
 import React from "react";
-import './../styles/App.css';
+import EditableTable from "./EditableTable";
 
-const App = () => {
+function App() {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <EditableTable />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
